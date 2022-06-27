@@ -1,0 +1,55 @@
+/* RESETING STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+  /* opacity: 0.9; */
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+a {
+  text-decoration-color: seashell;
+}
+
+/* HEADER/NAVBAR */
+
+#header {
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  padding: 8px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  text-decoration: underline;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#navbar li {
+  padding: 1rem;
+  font-weight: bold;
+  color: seashell;
+}
+
+/* ----HEADER/NAVBAR---------------- */
+
+/* JUMBOTRON */
