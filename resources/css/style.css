@@ -24,6 +24,7 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
 }
 
 .logo {
@@ -53,3 +54,33 @@ a {
 /* ----HEADER/NAVBAR---------------- */
 
 /* JUMBOTRON */
+#jumbotron {
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: auto;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  opacity: 0.9;
+}
+
+.content {
+  text-align: center;
+  padding-top: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: seashell;
+  /* background-color: black; */
+  opacity: 0.8;
+  display: block;
+}
+
+.content h2, h4{
+  background-color: black;
+  padding: 0.4rem;
+}
