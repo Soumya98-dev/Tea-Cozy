@@ -24,7 +24,12 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
+  z-index: 100;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
 }
 
 .logo {
@@ -59,11 +64,13 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 800px;
   width: auto;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   opacity: 0.9;
+  position: relative;
+  top: 73px;
 }
 
 .content {
@@ -80,7 +87,55 @@ a {
   display: block;
 }
 
-.content h2, h4{
+.content h2,
+h4 {
   background-color: black;
   padding: 0.4rem;
+}
+
+/* --------------------JUMBOTRON--------------------------- */
+
+/* SECTION1 - TYPES OF TEA  */
+
+.content-section1 {
+  text-align: center;
+  display: flex;
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: seashell;
+  /* background-color: black; */
+  opacity: 0.8;
+  display: block;
+}
+
+.content-section1 h2 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.content-section1 h3 {
+  padding-bottom: 0rem;
+}
+
+.images-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20%;
+}
+
+.images img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 10px;
+}
+
+.images p {
+  text-align: center;
 }
