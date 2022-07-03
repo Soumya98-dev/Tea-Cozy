@@ -147,8 +147,7 @@ a {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   opacity: 1;
-  position: relative;
-  top: 73px;
+  margin-top: 73px;
 }
 
 .content-section-1 {
@@ -189,3 +188,20 @@ a {
 }
 
 /* COMMUNICATION  */
+.communication {
+  height: 200px;
+  text-align: center;
+}
+
+.communication h2{
+  padding-bottom: 32px;
+}
+
+.communication h5{
+  padding-bottom: 22px;
+}
+
+.communication a{
+  text-decoration: none;
+  color: brown;
+}
